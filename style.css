@@ -1,3 +1,15 @@
 body {
     background-color: rgb(253, 251, 251);
+    margin: 0px;
+    max-width: 1366px;
+    max-height: 768px;
+}
+#cabecalho {
+  position: fixed;
+  top: 0;
+  width: 1366px;
+  background-color: #001845;
+}
+#titulo {
+  color: #d4d700;
 }
