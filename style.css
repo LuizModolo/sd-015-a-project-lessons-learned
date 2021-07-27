@@ -81,3 +81,12 @@ body {
   margin: 0;
   font-size: small;
 }
+
+#rodape a {
+  color: white;
+  font-style: normal;
+}
+
+#rodape a:hover {
+  font-weight: bolder;
+}
