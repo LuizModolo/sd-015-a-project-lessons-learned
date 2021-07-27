@@ -61,12 +61,18 @@ body {
 #aprendidas {
   color: rgb(51, 65, 92);
   display: inline-block;
-  margin-right: 40px;
+  margin-right: 60px;
 }
 
 #futuras {
   color: rgb(51, 65, 92);
   display: inline-block;
+  margin-right: 60px;
+}
+
+#tabela {
+  display: inline-block;
+  vertical-align: bottom;
 }
 
 #rodape {
@@ -112,7 +118,6 @@ nav {
   color: rgb(0, 40, 85);
   padding: 15px 0;
   padding-left: 200px;
-
 }
 
 nav p {
@@ -128,4 +133,30 @@ nav a {
 
 nav a:hover {
   font-weight: bolder;
+}
+
+table {
+  background: rgb(51, 65, 92);
+  border: rgb(191, 210, 0) solid 3px;
+  color: rgb(191, 210, 0);
+  text-align: center;
+  margin-bottom: 17px;
+}
+
+table td {
+  background: rgb(51, 65, 92);
+  padding: 10px;
+  font-size: 80%;
+}
+
+table th {
+  padding: 10px;
+  font-size: 90%;
+  font-weight: 100;
+}
+
+table caption {
+  color: rgb(51, 65, 92);
+  font-size: 18px;
+  font-weight: 700;
 }
