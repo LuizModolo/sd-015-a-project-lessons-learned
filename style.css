@@ -1,7 +1,7 @@
 body {
   background-color: rgb(253, 251, 251);
   margin: 0;
-  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-family: 'Lucida Sans', Verdana, sans-serif;
 }
 
 #cabecalho {
@@ -20,8 +20,64 @@ body {
 }
 
 #minha_foto {
-  margin-top: 120px;
+  margin-top: 107px;
   border-radius: 150px;
   margin-left: 195px;
 }
 
+#foto_nome {
+  background-color: rgb(191, 196, 209);
+}
+
+#boxfoto {
+  display: inline-block;
+  margin-bottom: 6px;
+}
+
+#nome {
+  display: inline-block;
+  color: rgb(0, 40, 85);
+}
+
+#nome h2 {
+  margin: 0;
+  margin-bottom: 5px;
+}
+
+#nome h3 {
+  margin: 0;
+}
+
+#licoes {
+  padding-left: 200px;
+}
+
+#licoes h2 {
+  color: rgb(51, 65, 92);
+  margin-bottom: 0;
+}
+
+#aprendidas {
+  color: rgb(51, 65, 92);
+  display: inline-block;
+  margin-right: 40px;
+}
+
+#futuras {
+  color: rgb(51, 65, 92);
+  display: inline-block;
+}
+
+#rodape {
+  background-color: rgb(0, 40, 85);
+  color: rgb(212, 215, 0);
+  padding: 15px 0;
+  padding-left: 200px;
+
+}
+
+#rodape p {
+  text-align: left;
+  margin: 0;
+  font-size: small;
+}
