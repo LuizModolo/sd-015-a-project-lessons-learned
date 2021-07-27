@@ -8,13 +8,13 @@ body {
   position: fixed;
   top: 0;
   width: 100%;
-  background-color: #001845;
+  background-color:rgb(0, 18, 51);
   height: 100px;
   padding-left: 200px;
 }
 
 #titulo {
-  color: #d4d700;
+  color: rgb(221, 223, 0);
   margin: 0;
   margin-top: 30px;
 }
@@ -83,15 +83,6 @@ body {
   font-size: small;
 }
 
-#rodape a {
-  color: white;
-  font-style: normal;
-}
-
-#rodape a:hover {
-  font-weight: bolder;
-}
-
 #artigos article {
   margin-left: 200px;
   width: 30%;
@@ -114,4 +105,27 @@ body {
   padding: 20px 0;
   color: rgb(0, 40, 85);
   vertical-align: top;
+}
+
+nav {
+  background-color: rgb(212, 215, 0);
+  color: rgb(0, 40, 85);
+  padding: 15px 0;
+  padding-left: 200px;
+
+}
+
+nav p {
+  text-align: left;
+  margin: 0;
+  font-size: small;
+}
+
+nav a {
+  color: white;
+  font-style: normal;
+}
+
+nav a:hover {
+  font-weight: bolder;
 }
